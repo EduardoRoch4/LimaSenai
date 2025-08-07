@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    color: #1f1f1f;
+}
+
+/* Botão de voltar */
+.botao-voltar {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 3rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #0078d4;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.botao-voltar:hover {
+    background-color: #005ba1;
+}
+
+/* Grid de habilidades */
+.habilidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Card individual */
+.card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0
+     6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.icone {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #0078d4;
+    font-weight: 600;
+}
+
+.descricao {
+    font-size: 1rem;
+    color: #555;
+}
