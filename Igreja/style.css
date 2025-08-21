@@ -201,3 +201,47 @@ footer.rodape {
         align-items: center;
     }
 }
+
+
+.eventos {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.eventos__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.evento-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.evento-card:hover {
+    transform: scale(1.03);
+}
+
+.evento-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.evento-card h4 {
+    font-size: 18px;
+    margin: 15px 0 10px;
+    color: #0B254B;
+}
+
+.evento-card p {
+    font-size: 14px;
+    margin: 5px 15px;
+    color: #5E6E89;
+}
